@@ -12,6 +12,7 @@ assignment3daa/
 .idea/                 # IDE configuration folder (e.g., IntelliJ)
   src/
       model/             # Data models for input/output JSON
+      
             AlgorithmResult.java
             Edge.java
             GraphData.java
