@@ -9,21 +9,26 @@ Project Structure
 This project is configured with Maven, but the Java files are placed directly in the src/ directory for simplicity.
 
 assignment3daa/
-├── .idea/                 # IDE configuration folder (e.g., IntelliJ)
-├── src/
-│   ├── model/             # Data models for input/output JSON
-│   │   ├── InputModel.java
-│   │   └── OutputModel.java
-│   ├── resources/           # Input data
-│   │   └── ass_3_input.json
-│   ├── DisjointSetUnion.java  # DSU helper class for Kruskal's
-│   ├── KruskalsAlgorithm.java # Kruskal's algorithm implementation
-│   ├── MSTMain.java         # Main executable class
-│   └── PrimsAlgorithm.java    # Prim's algorithm implementation
-├── target/                # Build output directory
-├── pom.xml                # Maven configuration (for dependencies)
-├── ass_3_output.json      # <-- This file is generated after running
-└── report.md              # Analytical report
+.idea/                 # IDE configuration folder (e.g., IntelliJ)
+  src/
+      model/             # Data models for input/output JSON
+            AlgorithmResult.java
+            Edge.java
+            GraphData.java
+            GraphResult.java
+            InputData.java
+            InputStats.java
+            OutputData.java
+      resources/           # Input data
+            ass_3_input.json
+      DisjointSetUnion.java  # DSU helper class for Kruskal's
+      KruskalsAlgorithm.java # Kruskal's algorithm implementation
+      MSTMain.java         # Main executable class
+      PrimsAlgorithm.java    # Prim's algorithm implementation
+    target/                # Build output directory
+    pom.xml                # Maven configuration (for dependencies)
+    ass_3_output.json      # <-- This file is generated after running
+    readme.md              # Analytical report
 
 
 Prerequisites
