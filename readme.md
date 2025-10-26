@@ -8,11 +8,10 @@ Project Structure
 
 This project is configured with Maven, but the Java files are placed directly in the src/ directory for simplicity.
 
-assignment3daa/
-.idea/                 # IDE configuration folder (e.g., IntelliJ)
-  src/
-      model/             # Data models for input/output JSON
-      
+    assignment3daa/      
+    .idea/                 # IDE configuration folder (e.g., IntelliJ)
+    src/
+      model/             # Data models for input/output JSON      
             AlgorithmResult.java
             Edge.java
             GraphData.java
